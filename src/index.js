@@ -1,3 +1,5 @@
+import './styles/index.scss';
+
 const newObject = {
   test: 1,
   kaka: 2,
