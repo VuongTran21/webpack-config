@@ -1,16 +1,4 @@
-import './styles/index.scss';
+import { render } from "react-dom";
+import App from './components/App';
 
-const newObject = {
-  test: 1,
-  kaka: 2,
-  play: 3
-}
-
-const otherObject = {
-  ...newObject,
-  guitar: 22
-}
-
-console.log(newObject);
-
-console.log('nice hot reloading', otherObject);
+render(<App />, document.getElementById("root"));
