@@ -12,6 +12,8 @@ const gauntletRecipe = {
   refinedMoonstone: 8,
 };
 
+console.log('test');
+
 function Recipes() {
   const [recipe, setRecipe] = useState({});
 
